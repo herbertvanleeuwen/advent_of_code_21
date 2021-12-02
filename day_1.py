@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def read_heights():
-    with open("input.txt") as f:
+    with open("data/input.txt") as f:
         heights = [int(height.strip()) for height in f.readlines()]
 
     return heights

@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    with open("input_day2.txt") as f:
+    with open("data/input_day2.txt") as f:
         orders = [(order.split()[0], int(order.split()[1].strip())) for order in f.readlines()]
 
     position = {'horizontal': 0,
